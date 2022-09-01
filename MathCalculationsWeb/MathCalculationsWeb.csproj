@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MathFunctions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MathFunctions">
+      <HintPath>..\..\MathFunctions\MathFunctions\bin\Release\net6.0\MathFunctions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
